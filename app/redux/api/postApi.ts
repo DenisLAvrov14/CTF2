@@ -7,7 +7,7 @@ export const postApi = createApi({
   tagTypes: ['Posts'],
   baseQuery: fetchBaseQuery({
     // baseUrl: 'https://countertrade.vit.ooo/v1/api',
-    baseUrl: 'https://663e6894e1913c4767978fca.mockapi.io/',
+    baseUrl: 'https://663e6894e1913c4767978fca.mockapi.io',
     prepareHeaders: (headers) => {
       headers.set('Content-type', 'application/json');
       return headers;
@@ -16,7 +16,7 @@ export const postApi = createApi({
   endpoints: (builder) => ({
     //GET
     getAllPosts: builder.query({
-      // query: () => `/post/`, для бекенда
+      // query: () => `/post/`,
       query: () => `/posts/`,
       providesTags: ({ result }) =>
         result

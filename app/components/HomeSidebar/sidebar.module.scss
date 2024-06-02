@@ -176,41 +176,41 @@
     padding-left: 10px;
     // display: flex;
     // flex-direction: column;
-  
+
     .webpage_text {
       margin-bottom: 5px;
       cursor: pointer;
-  
+
       span {
         font-weight: 400;
         font-size: 12px;
         white-space: nowrap;
       }
     }
-  
+
     .links {
       display: flex;
       gap: 10px;
       align-items: center;
       white-space: nowrap;
       font-size: 11px;
-  
+
       .routes_footer {
         display: flex;
         align-items: center;
         gap: 10px;
-  
+
         a {
           font-size: 12px;
           cursor: pointer;
         }
       }
-  
+
       .social_icons {
         display: flex;
         align-items: center;
         gap: 1px;
-  
+
         img {
           width: 15px;
           height: 15px;
@@ -496,8 +496,6 @@
       padding-bottom: 18px;
     }
   }
-
-  
 }
 
 .footer {
@@ -554,11 +552,8 @@
   }
 }
 
-
 @media screen and (max-width: 1600px) {
-  
-  .sidebar{
+  .sidebar {
     height: 300px;
   }
-  
 }
